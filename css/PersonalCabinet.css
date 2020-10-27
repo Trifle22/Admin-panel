@@ -2,6 +2,9 @@ body {
   font-family: sans-serif;
   background-color: whitesmoke;
 }
+a {
+  text-decoration: none;
+}
 .header {
   width: 100%;
   background-color: #a7a7a7;
@@ -35,16 +38,12 @@ body {
 .logo-text p {
   margin: 0;
 }
-.user {
-  width: 57px;
-  height: 57px;
-  background: transparent url(../img/user.svg) no-repeat center/cover;
-  margin-right: 20px;
-}
+
 .categories {
   margin-right: auto;
   margin-left: 100px;
 }
+
 .category-button {
   text-align: center;
   width: 150px;
@@ -62,63 +61,13 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-.category-button.is-active {
-  color: whitesmoke;
-  background-color: #394165;
-}
 .category-button:hover {
   color: whitesmoke;
   background-color: #394165;
 }
-
-.main {
-  padding-top: 60px;
-  width: 95%;
-  margin: 0 auto;
-  background-color: whitesmoke;
-  display: flex;
-  padding-bottom: 60px;
-}
-.table {
-  display: block;
-  color: black;
-  font-weight: normal;
-  font-size: 15px;
-  width: 100%;
-}
-
-table {
-  width: 100%;
-}
-
-.table-title100 {
-  width: 100px;
-  border-bottom: 1px solid #000;
-  padding: 5px;
-}
-.table-title50 {
-  width: 50px;
-  border-bottom: 1px solid #000;
-  padding: 5px;
-}
-td {
-  text-align: center;
-  padding: 5px;
-}
-tr:nth-child(2n) {
-  background-color: lightgrey;
-}
-.edit-rating {
-  width: 15px;
-  height: 15px;
-  margin-left: 10px;
-  transition: all 0.3s ease-in-out;
-}
-.edit-rating:hover {
-  width: 20px;
-  height: 20px;
-  z-index: 999;
-  fill: #394165;
+.buttons {
+  margin-left: 100px;
+  margin-right: auto;
 }
 /* стили для информации о пользователе */
 
@@ -149,22 +98,24 @@ tr:nth-child(2n) {
 .user-links {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   position: absolute;
-  bottom: -85px;
-  left: -50px;
-  background-color: #394165;
-  padding: 10px;
+  bottom: -60px;
+  right: 20px;
+  left: 0;
+  background-color: transparent;
+  padding: 30px;
   border-radius: 10px;
   display: none;
   transition: all 0.3s ease-in-out;
+  padding: 10px;
 }
 .exit {
   color: white;
-  margin-bottom: 10px;
-  text-decoration: none;
+  background-color: #394165;
+  padding: 10px;
+  border-radius: 5px;
 }
 .personal-cabinet-link {
   color: white;
-  text-decoration: none;
 }

@@ -279,3 +279,51 @@ border-color: white;
   color: whitesmoke;
   background-color: #394165;
 }
+/* стили для информации о пользователе */
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+.user-name {
+  margin-right: 20px;
+}
+.user {
+  width: 57px;
+  height: 57px;
+  background: transparent url(../img/user.svg) no-repeat center/cover;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.user-name {
+  color: #394165;
+}
+.user:hover .user-links {
+  display: flex;
+}
+.user-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  bottom: -85px;
+  left: -50px;
+  background-color: #394165;
+  padding: 10px;
+  border-radius: 10px;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+.exit {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.personal-cabinet-link {
+  color: white;
+  text-decoration: none;
+}
