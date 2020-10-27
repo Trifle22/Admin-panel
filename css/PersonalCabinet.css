@@ -100,11 +100,9 @@ a {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  bottom: -60px;
+  bottom: -50px;
   right: 20px;
   left: 0;
-  background-color: transparent;
-  padding: 30px;
   border-radius: 10px;
   display: none;
   transition: all 0.3s ease-in-out;
@@ -118,4 +116,74 @@ a {
 }
 .personal-cabinet-link {
   color: white;
+}
+
+
+
+
+/* стили для контента личного кабинета */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.admin-name {
+  text-align-last: right;
+  color: black;
+  margin-right: 20px;
+}
+.local-settings, .admin-list-section {
+  background-color: #54608F;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+.local-settings-title, .admin-list-title {
+  margin: 0;
+  margin-left: 20px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+.local-settings-items {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-left: 20px;
+}
+.select-countries, .select-city {
+  background-color: #394165;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+.option {
+  background-color: #394165;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.admin-list {
+  margin: 0 auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.admin-list li {
+  background-color: whitesmoke;
+  width: 100%;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.admin-telephone, .admin-email, .admin-lastname, .admin-name {
+  margin-right: 150px;
 }
