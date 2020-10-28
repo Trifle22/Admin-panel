@@ -168,3 +168,58 @@ tr:nth-child(2n) {
   color: white;
   text-decoration: none;
 }
+/* стили модального окна */
+.modal-header {
+  width: 50%;
+  background-color: #394165;
+  padding: 20px 0;
+  z-index: 99;
+  color: whitesmoke;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.modal-title {
+  margin: 0;
+}
+.modal-text {
+  padding-left: 20px;
+  color: #394165;
+}
+.modal-input {
+  margin-bottom: 20px;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  margin-left: 20px;
+  color: black;
+}
+.modal-button {
+  text-align: center;
+  width: 150px;
+  display: block;
+  padding: 15px 0;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #394165;
+  font-weight: 600;
+  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.modal-button:hover {
+  color: whitesmoke;
+  background-color: #394165;
+}

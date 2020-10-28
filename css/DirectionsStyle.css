@@ -214,11 +214,13 @@ border-color: white;
 }
 /* стили модального окна */
 .modal-header {
-  width: 97.7%;
+  width: 50%;
   background-color: #394165;
   padding: 20px 0;
   padding-left: 20px;
+  z-index: 99;
 }
+
 .modal-title {
   font-style: normal;
   font-weight: bold;
@@ -230,7 +232,7 @@ border-color: white;
 .modal-main {
   background-color: white;
   padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .modal-text {
   font-style: normal;
