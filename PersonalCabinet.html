@@ -48,16 +48,26 @@
         Настройки локализации
       </h2>
       <div class="local-settings-items">
-        <select name="country" id="country" class="select-countries">
-          <option value="Russia" class="option">РФ</option>
-          <option value="England" class="option">Англия</option>
-        </select>
-        <select name="city" id="city" class="select-city">
-          <option value="Moscow" class="option">Москва</option>
-          <option value="St.Petersburg" class="option">Санкт-Петербург</option>
-          <option value="Novosibirsk" class="option">Новосибирск</option>
-          <option value="Nizhniy Novgorod" class="option">Нижний Новгород</option>
-        </select>
+        <div class="counties">
+          <select name="country" id="country" class="select-countries">
+            <option value="Russia" class="option">РФ</option>
+            <option value="England" class="option">Англия</option>
+          </select>
+          <a href="#newCountry" rel="modal:open" class="add-country">
+            Добавить страну
+          </a>
+        </div>
+        <div class="cities">
+          <select name="city" id="city" class="select-city">
+            <option value="Moscow" class="option">Москва</option>
+            <option value="St.Petersburg" class="option">Санкт-Петербург</option>
+            <option value="Novosibirsk" class="option">Новосибирск</option>
+            <option value="Nizhniy Novgorod" class="option">Нижний Новгород</option>
+          </select>
+          <a href="#newCity" rel="modal:open" class="add-city">
+            Добавить город
+          </a>
+        </div>
       </div>
     </div>
     <!-- ./local-settings -->
@@ -66,12 +76,6 @@
         Список администраторов
       </h2>
       <ol class="admin-list">
-        <li>
-          <span class="admin-lastname">Админов</span>
-          <span class="admin-name">Админ</span>
-          <span class="admin-email">admin@gmail.com</span>
-          <span class="admin-telephone">88005553535</span>
-        </li>
         <li><a class="plus" href="#newAdmin" rel="modal:open">+</a></li>
       </ol>
     </div>
@@ -104,6 +108,31 @@
       </form>
     </div>
   </div>
+  <div id="newCountry" class="modal">
+    <div class="modal-header">
+      <h1 class="modal-title">
+        Новая страна
+      </h1>
+    </div>
+    <div class="modal-main">
+      <p class="modal-text">Введите название новой страны</p>
+      <input type="text" class="modal-input">
+      <button class="modal-button" type="submit">Сохранить</button>
+    </div>
+  </div>
+  <div id="newCity" class="modal">
+    <div class="modal-header">
+      <h1 class="modal-title">
+        Новый город
+      </h1>
+    </div>
+    <div class="modal-main">
+      <p class="modal-text">Введите название нового города</p>
+      <input type="text" class="modal-input">
+      <button class="modal-button" type="submit">Сохранить</button>
+    </div>
+  </div>
+  <script src="js/PersonalCabinet.js"></script>
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/jquery.modal.min.js"></script>
 </body>

@@ -44,7 +44,7 @@ a {
   margin-left: 100px;
 }
 
-.category-button {
+.category-button, .add-city, .add-country {
   text-align: center;
   width: 150px;
   display: inline-block;
@@ -61,7 +61,7 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
-.category-button:hover {
+.category-button:hover, .add-country:hover, .add-city:hover {
   color: whitesmoke;
   background-color: #394165;
 }
@@ -160,7 +160,7 @@ a {
   border: none;
   padding: 10px;
   border-radius: 10px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 .option {
   background-color: #394165;
@@ -170,20 +170,32 @@ a {
   padding: 10px;
   border-radius: 10px;
 }
+.counties, .cities {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
 .admin-list {
   margin: 0 auto;
   margin-right: 20px;
   margin-left: 20px;
+  padding-left: 40px;
   background-color: whitesmoke;
   border-radius: 10px;
 }
 .admin-list li {
   background-color: whitesmoke;
-  width: 100%;
-  width: 100%;
-  padding: 10px 0;
+  padding: 15px 0;
   border-radius: 10px;
+  width: 100%;
 }
+.admin-surname, .admin-name-li,  .admin-telephone, .admin-email {
+  text-align: left;
+  display: inline-block;
+  width: 20%;
+  margin: 0 auto;
+}
+
 .admin-list li:last-of-type {
   list-style: none;
   text-align: center;
@@ -205,10 +217,6 @@ a {
 }
 .plus:hover {
   padding: 3px 10px;
-}
-
-.admin-telephone, .admin-email, .admin-lastname, .admin-name {
-  margin-right: 150px;
 }
 /* стили модального окна */
 .modal-header {
@@ -256,6 +264,7 @@ a {
   padding: 10px 0;
   padding-left: 10px;
   color: black;
+  margin-right: 50px;
 }
 .modal-button {
   text-align: center;
