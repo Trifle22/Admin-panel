@@ -190,6 +190,7 @@ tr:nth-child(2n) {
 .modal-text {
   padding-left: 20px;
   color: #394165;
+  margin: 0;
 }
 .modal-input {
   margin-bottom: 20px;
