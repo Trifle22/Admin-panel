@@ -1,0 +1,42 @@
+[
+  {
+    "id" : "1",
+    "name": "Данила",
+    "lastname": "Днепров",
+    "email": "ddneprov@gmail.com",
+    "telephone": "88005553535",
+    "countrycode": "14",
+    "citycode": "495",
+    "rating": "4,8"
+  },
+  {
+    "id" : "1",
+    "name": "Данила",
+    "lastname": "Днепров",
+    "email": "ddneprov@gmail.com",
+    "telephone": "88005553535",
+    "countrycode": "14",
+    "citycode": "495",
+    "rating": "4,8"
+  },
+  {
+    "id" : "1",
+    "name": "Данила",
+    "lastname": "Днепров",
+    "email": "ddneprov@gmail.com",
+    "telephone": "88005553535",
+    "countrycode": "14",
+    "citycode": "495",
+    "rating": "4,8"
+  },
+  {
+    "id" : "1",
+    "name": "Данила",
+    "lastname": "Днепров",
+    "email": "ddneprov@gmail.com",
+    "telephone": "88005553535",
+    "countrycode": "14",
+    "citycode": "495",
+    "rating": "4,8"
+  }
+]
